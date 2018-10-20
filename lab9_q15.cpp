@@ -4,6 +4,7 @@ using namespace std;
 int main(){
 	char str[11],*p;
 	cout<<"type an input of 10 characters as string"<<endl;
+	//asking user
 	cin>>str;
 	p=str;
 	// Pointer variable refers to address of string
