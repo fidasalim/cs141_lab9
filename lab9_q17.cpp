@@ -1,5 +1,3 @@
-
-
 #include<iostream>
 using namespace std;
 void strcpy(char *p, char *q){
@@ -89,20 +87,7 @@ int main(){
 	cout << p<< endl;
 	cout<<"The string 'p' is "<<p<<endl;
 	strlen(p);
-	cout<<"Type a letter in the string "<<p;
-	cin>>m;
-	strchr(p,m);
-	return 0;
-}
-	strcpy(p,q);
-	cout << q<< endl;
-	strcmp(p,q);
-	strcmp(p,r);
-	strcat(p,r);
-	cout << p<< endl;
-	cout<<"The string 'p' is "<<p<<endl;
-	strlen(p);
-	cout<<"Type a letter in the string "<<p;
+	cout<<"Type a letter in the string "<<p<<" : ";
 	cin>>m;
 	strchr(p,m);
 	return 0;
